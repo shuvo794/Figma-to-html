@@ -15,3 +15,31 @@ body{
     margin: 0;
     font-family: "Poppins",sans-serif;
 }
+/* .btn{
+    padding: 16px 32px;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E8F7FB;
+} */
+.dark-btn{
+    background: var(--dark-bule);
+    padding: 16px 32px;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.light-btn{
+    background: var(--orange-color);
+    padding: 16px 32px;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
