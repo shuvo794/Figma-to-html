@@ -15,16 +15,7 @@ body{
     margin: 0;
     font-family: "Poppins",sans-serif;
 }
-/* .btn{
-    padding: 16px 32px;
-    border-radius: 24px;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 18px;
-    color: #E8F7FB;
-} */
-.dark-btn{
-    background: var(--dark-bule);
+.btn{
     padding: 16px 32px;
     border-radius: 24px;
     display: inline-block;
@@ -33,13 +24,15 @@ body{
     color: #fff;
     text-decoration: none;
 }
-.light-btn{
+.btn.dark {
+    background: var(--dark-bule);
+    
+    
+}
+ .btn.light{
     background: var(--orange-color);
-    padding: 16px 32px;
-    border-radius: 24px;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
+   
+}
+.btn.enrole-icone::before{
+    content: url(./image/logo/PencilAlt.png);
 }
