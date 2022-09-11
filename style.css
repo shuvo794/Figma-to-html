@@ -364,3 +364,17 @@ text-align: center;
 
 color: #FFFFFF;
 }
+footer{
+    background: var(--dark-color);
+    color: #fff;
+    margin-top: 100px;
+    padding: 70px 0;
+
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer h3{
+    color: var(--orange-color);
+}
