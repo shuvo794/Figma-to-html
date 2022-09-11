@@ -340,5 +340,27 @@ color:var(--dark-bule);
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 24px;
+}
+.app-section .app-btn{
+    padding: 20px 31px;
+    background: #000000;
+    color: #fff;
+   min-width: 310px;
+display: flex;
+align-items: center;
+gap: 14px;
+
+}
+.app-section span{
+    font-family: 'Poppins'sans-serif;
+
+font-weight: 400;
+font-size: 24px;
+
+
+
+text-align: center;
+
+color: #FFFFFF;
 }
