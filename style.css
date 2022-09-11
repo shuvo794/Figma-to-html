@@ -378,3 +378,7 @@ footer a{
 footer h3{
     color: var(--orange-color);
 }
+footer ul{
+    list-style: none;
+    left: 20px;
+}
