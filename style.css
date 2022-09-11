@@ -58,7 +58,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     width: 1134px;
     top: 36px;
     z-index: 100;
@@ -384,4 +384,8 @@ footer ul{
 }
 footer ul li {
     margin: 16px 0;
+}
+footer .links-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
 }
