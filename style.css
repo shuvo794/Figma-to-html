@@ -331,3 +331,14 @@ color:var(--dark-bule);
    left: 956px;
 }
  
+/* APP Sections */
+.app-section{
+    text-align: center;
+}
+.app-section .app-bttns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
