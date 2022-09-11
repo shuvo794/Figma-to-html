@@ -58,7 +58,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     width: 1134px;
     top: 36px;
     z-index: 100;
@@ -388,4 +388,43 @@ footer ul li {
 footer .links-container{
     display: grid;
     grid-template-columns: 2fr 2fr 3fr;
+}
+footer .social{
+    margin-left: 20px;
+}
+footer .social  a{
+    margin-right: 28px;
+}
+footer form{
+    margin-left: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+footer form input{
+    font-family: 'Poppins',sans-serif;
+
+font-weight: 400;
+font-size: 16px;
+border-radius: 8px;
+/* identical to box height, or 32px */
+padding: 8px 32px;
+border: none;
+width: 100%;
+color: #000000;
+}
+footer form .submit-btn{
+    position: absolute;
+    left: 334px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--dark-bule);
+    padding:8px 18px ;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins'sans-serif;
+
+font-weight: 400;
+font-size: 16px;
+
 }
