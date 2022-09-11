@@ -183,3 +183,21 @@ z-index: 1;
 .pico{
    display: none;
 }
+section{
+   margin-top: 100px;
+}
+h2{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--dark-bule);
+}
+h2.light {
+    color: #fff;
+}
+section p{
+font-family: 'Poppins',sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: var(--dark-bule);
+}
