@@ -276,3 +276,58 @@ bottom: 20px;
 .testimonial-section .fetures{
     margin-bottom: 30px;
 }
+/* Courses=section */
+
+/* .courses-section{
+    background-color: gradient(180deg, #6F7DFB 0%, #26308C 100%);
+} */
+.courses-section{
+   background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+.courses-section h2{
+    text-align: center;
+}
+.courses-section .courese-cards{
+    display: flex;
+    gap: 70px;
+}
+.courses-section .courese-card{
+    background: #fff;
+    border-radius: 24px;
+    padding: 0px 32px;
+    margin-top: -40px;
+}
+.courses-section .courese-card h3{
+font-family: 'Raleway'sans-serif;
+font-weight: 900;
+font-size: 30px;
+color: var(--dark-bule);
+}
+.courses-section .courese-card .info{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.courses-section .courese-card .duration{
+font-family: 'Raleway'sans-serif;
+font-weight: 900;
+font-size: 16px;
+white-space: nowrap;
+padding-left: 20px;
+position: relative;
+color:var(--dark-bule);
+}
+.courses-section .courese-card .duration::before{
+    content: url(./image/logo/to.png);
+    position: absolute;
+    top: 2px;
+    left: -6px;
+}
+#course-btn{
+    margin-top: 20px;
+   margin-bottom: 20px;
+   left: 956px;
+}
+ 
