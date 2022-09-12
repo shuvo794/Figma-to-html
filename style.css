@@ -180,8 +180,16 @@ margin-bottom: 8px;
     left: 8px;
 z-index: 1;
 }
-.pico{
+/* .pico{
    display: none;
+} */
+.overall-ratting .content div{
+    display: flex;
+    width: 44px;
+height: 44px;
+}
+.overall-ratting .content p{
+    margin-top: 5px;
 }
 section{
    margin-top: 100px;
