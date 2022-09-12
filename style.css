@@ -50,7 +50,8 @@ body{
     padding-left: 60px;
 }
 header{
-background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+/* background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%); */
+background: var(--dark-color);
 height: 100vh;
 width: 100%;
 }
@@ -300,7 +301,8 @@ bottom: 20px;
     background-color: gradient(180deg, #6F7DFB 0%, #26308C 100%);
 } */
 .courses-section{
-   background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+   /* background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%); */
+   background: var(--dark-color);
 }
 .courses-section h2{
     text-align: center;
