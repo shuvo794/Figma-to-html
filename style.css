@@ -63,6 +63,7 @@ nav{
     width: 1134px;
     top: 36px;
     z-index: 100;
+    transition: all 500ms ease;
 }
 nav.scrolled{
     /* background: #6F7DFB; */
@@ -201,6 +202,9 @@ height: 44px;
 }
 .overall-ratting .content p{
     margin-top: 5px;
+}
+.overall-ratting .content{
+    margin-right: -3px;
 }
 section{
    margin-top: 100px;
