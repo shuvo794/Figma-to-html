@@ -58,7 +58,8 @@ body {
 /* Header */
 
 header {
-  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  /* background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%); */
+  background: var(--dark-blue-color);
   height: 100vh;
   width: 100%;
 }
@@ -76,7 +77,7 @@ nav {
 }
 
 nav.scrolled {
-  background: var(--dark-color);
+  background: var(--dark-blue-color);
   box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.3);
   border-radius: 0 0 8px 8px;
   top: 0;
@@ -206,7 +207,8 @@ nav ul li a {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, #6f7dfb 0%, #3b448f 100%);
+  /* background: linear-gradient(180deg, #6f7dfb 0%, #3b448f 100%); */
+  background: var(--dark-color);
   border-radius: 24px;
   top: 8px;
   left: 8px;
@@ -335,7 +337,8 @@ section p {
 /* Courses Section */
 
 .courses-section {
-  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  /* background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%); */
+  background: var(--dark-blue-color);
   padding: 70px 0;
   padding-bottom: 120px;
 }
@@ -450,7 +453,7 @@ section p {
 /* Footer */
 
 footer {
-  background: var(--dark-color);
+  background: var(--dark-blue-color);
   color: #fff;
   margin-top: 100px;
   padding: 70px 0;
